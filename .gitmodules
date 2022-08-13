@@ -1,0 +1,4 @@
+[submodule "portfolio/public"]
+	path = portfolio/public
+	url = git@github.com:UltraProton/UltraProton.github.io.git
+	branch = main
