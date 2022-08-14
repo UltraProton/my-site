@@ -45,10 +45,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Aditya"
+  title: "My Profile"
   description: Aditya portfolio
   # staticPath: ""  # The path to serve the static files from
-  # favicon: "/fav.png"
+  favicon: "/images/headphones.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -101,8 +101,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Aditya."
-    subtitle: "I build things for the cloud"
-    content: "A passionate software developer. I love exploring new technologies and applying to build and try my hands on new stuff."
+    subtitle: "I build things for the cloud."
+    content: "A passionate software developer. I love exploring new technologies, Programming, Reading & Writing, Travelling and Workout."
     image: /images/aditya.jpg
     button:
       enable: true
@@ -124,8 +124,9 @@ params:
     title: "About Me"
     image: "/images/aditya_first.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and engineering, and I have a strong interest in the intersection of technology and art. I am currently working as a Member Technical Staff at [Oracle Cloud Infrastructure](https://www.oracle.com/in/cloud/) in Bangalore, India. 
-
+      I am a software developer with a passion for cloud services and web development. I have a background in computer science and engineering. I have tried my hands on Python, Machine Learning, Internet of Things, C/C++, Compilers and LLVM, GoLang, Docker, Kubernetes.
+      
+      I am currently working as a Member Technical Staff at [Oracle Cloud Infrastructure](https://www.oracle.com/in/cloud/) in Bangalore, India. 
       I am currently working on interesting software assurance and security projects for customers of Oracle Cloud infrastructure.
     skills:
       enable: true
@@ -167,7 +168,7 @@ params:
         #   enable: true
         #   content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I worked as a software developer at OPPO Research and Development in Hyderabad, India. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a software developer at OPPO Research and Development in Hyderabad, India.
 
           - Worked as a Software Engineer in Android RnD team responsible for issue tracking and bug fixing related to Android framework(UI), OPPO Logkit and OPPO Engineer Mode applications. I also handle the task of porting the Logkit and Engineer Mode applications during the device operating system upgrade.
           - Developed a battery and CPU resource consumption analysis application for the OPPO mobile phones as part of android training project. This can help the power and performance team of OPPO in analyzing the battery and CPU related data for handling issues.
