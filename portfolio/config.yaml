@@ -4,8 +4,8 @@ title: "Hugo Profile"
 theme: hugo-profile
 
 Paginate: 3
-disqusShortname: gurusabarish
-googleAnalytics: G-DWJJVE27WD
+disqusShortname: ultraproton
+#googleAnalytics: G-DWJJVE27WD
 
 markup:
   goldmark:
@@ -45,10 +45,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+#   title: "Hugo Profile"
+#   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  #favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -110,13 +110,13 @@ params:
       url: "https://drive.google.com/file/d/1-SBccXyge3bJXIo0gIaY0GFQ1GSQBgnb/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/npakr/
         - icon: fab fa-github
           url: https://github.com/UltraProton
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -124,7 +124,7 @@ params:
     title: "About Me"
     image: "/images/aditya_first.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and engineering, and I have a strong interest in the intersection of technology and art. I am currently working as a Member Technical Staff at [Oracle.](https://www.oracle.com/in/cloud/) in Bangalore, India. 
+      I am a software developer with a passion for web development. I have a background in computer science and engineering, and I have a strong interest in the intersection of technology and art. I am currently working as a Member Technical Staff at [Oracle Cloud Infrastructure](https://www.oracle.com/in/cloud/) in Bangalore, India. 
 
       I am currently working on interesting software assurance and security projects for customers of Oracle Cloud infrastructure.
     skills:
@@ -146,14 +146,14 @@ params:
         company: "Oracle"
         companyUrl: "https://www.oracle.com/in/cloud/"
         date: "May 2022 - present"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
         content: |
           I am currently working on an interesting software assurance and security projects for customers of Oracle Cloud infrastructure.
            
-           - Building for the next generation cloud customers.
+           - Building for the next generation of Oracle cloud customers.
            - Kubernetes, Docker, Golang, Helm, OCI services
 
       - job: "Senior Engineer"
@@ -167,7 +167,7 @@ params:
         #   enable: true
         #   content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I worked as a software developer at [OPPO Research and Development](https://www.oppo.com/in/) in Hyderabad, India. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a software developer at OPPO Research and Development in Hyderabad, India. I am currently working on a project that will be used to help people find the best way to get around the city.
 
           - Worked as a Software Engineer in Android RnD team responsible for issue tracking and bug fixing related to Android framework(UI), OPPO Logkit and OPPO Engineer Mode applications. I also handle the task of porting the Logkit and Engineer Mode applications during the device operating system upgrade.
           - Developed a battery and CPU resource consumption analysis application for the OPPO mobile phones as part of android training project. This can help the power and performance team of OPPO in analyzing the battery and CPU related data for handling issues.
@@ -219,57 +219,55 @@ params:
         GPA: "8.1 out of 10"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Silver Medal in Intra college Football championship 
       
       - title: "Bachelor of Technology in Computer Science and Engineering"
         school:
           name: "BVCOE New Delhi"
           url: "https://bvcoend.ac.in/"
         date: "2013 - 2017"
-        GPA: "3.9 out of 5.0"
+        GPA: "70.86 %"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Gold Medal in Intra college football championship. 
+        #  I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #   - Face mask detection using a single convolutional neural network.          
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+
+      # - title: "Twelfth"
+      #   school:
+      #     name: ""
+      #     url: "https://example.org"
+      #   GPA: "4.2 out of 5.0"
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: OCI Foundations Associate Certification
+        content: Completed the certification with 86% score.
+        url: https://catalog-education.oracle.com/pls/certview/sharebadge?id=A952FC0259EBCACFD220D1BE9693A3B544CEF0192765327535A0A5C17622BFCC
+      # - title: Facebook Hackathon Winner
+      #   content: Developed a product using Artificial Intelligence.
+      # - title: Hugo Profile
+      #   content: Developed a theme and getting 1K+ downloads per month.
+      #   url: "https://github.com/gurusabarish/hugo-profile"
+      # - title: Microsoft Imagine Runner
+      #   content: We are developed a product which can help others.
+      # - title: Google Summer of Code
+      #   content: Contributed to a open source project.
+      #   url: https://example.com
 
   # projects
   projects:
-    enable: true
+    enable: false
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
