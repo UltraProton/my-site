@@ -45,10 +45,10 @@ Menus:
     #   weight: 2
 
 params:
-#   title: "Hugo Profile"
-#   description: Text about my cool site
+  title: "Aditya"
+  description: Aditya portfolio
   # staticPath: ""  # The path to serve the static files from
-  #favicon: "/fav.png"
+  # favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -157,7 +157,7 @@ params:
            - Kubernetes, Docker, Golang, Helm, OCI services
 
       - job: "Senior Engineer"
-        company: "OPPO Research and Development"
+        company: "OPPO RnD"
         companyUrl: "https://www.oppo.com/in/"
         date: "Sep 2020 - May 2022"
         featuredLink:
